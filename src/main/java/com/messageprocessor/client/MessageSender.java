@@ -18,7 +18,7 @@ public class MessageSender {
         List<Message> messageList = new ArrayList<>();
         int i = 0;
 
-        while (i<53) {
+        while (i<50) {
             Message msg = new Message();
             switch (rNum.nextInt(6)) {
 
